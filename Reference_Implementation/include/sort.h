@@ -19,7 +19,6 @@ void sortingnetwork(uint8_t *arr, const size_t size);
 int compare_matrices(const normalized_IS_t *V1,
                      const normalized_IS_t *V2);
 
-int row_bubble_sort(normalized_IS_t *G);
 int row_bitonic_sort(normalized_IS_t *G);
 int row_quick_sort(normalized_IS_t *G);
 
